@@ -14,6 +14,7 @@
 		1A5E163C1CA86A68007F63C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5E163A1CA86A68007F63C6 /* LaunchScreen.storyboard */; };
 		1A5E16471CA86A69007F63C6 /* WikiMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5E16461CA86A69007F63C6 /* WikiMasterTests.swift */; };
 		1A5E16521CA86A69007F63C6 /* WikiMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5E16511CA86A69007F63C6 /* WikiMasterUITests.swift */; };
+		1A5E16601CA8722B007F63C6 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5E165F1CA8722B007F63C6 /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1A5E164D1CA86A69007F63C6 /* WikiMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5E16511CA86A69007F63C6 /* WikiMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiMasterUITests.swift; sourceTree = "<group>"; };
 		1A5E16531CA86A69007F63C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5E165F1CA8722B007F63C6 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		1A5E16501CA86A69007F63C6 /* WikiMasterUITests */ = {
 			isa = PBXGroup;
 			children = (
+				1A5E165F1CA8722B007F63C6 /* SnapshotHelper.swift */,
 				1A5E16511CA86A69007F63C6 /* WikiMasterUITests.swift */,
 				1A5E16531CA86A69007F63C6 /* Info.plist */,
 			);
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A5E16521CA86A69007F63C6 /* WikiMasterUITests.swift in Sources */,
+				1A5E16601CA8722B007F63C6 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				1A5E16581CA86A69007F63C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A5E16591CA86A69007F63C6 /* Build configuration list for PBXNativeTarget "WikiMasterTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				1A5E165B1CA86A69007F63C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A5E165C1CA86A69007F63C6 /* Build configuration list for PBXNativeTarget "WikiMasterUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				1A5E165E1CA86A69007F63C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
