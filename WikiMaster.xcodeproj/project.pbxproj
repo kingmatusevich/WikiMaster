@@ -15,6 +15,7 @@
 		1A5E16471CA86A69007F63C6 /* WikiMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5E16461CA86A69007F63C6 /* WikiMasterTests.swift */; };
 		1A5E16521CA86A69007F63C6 /* WikiMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5E16511CA86A69007F63C6 /* WikiMasterUITests.swift */; };
 		1A5E16601CA8722B007F63C6 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5E165F1CA8722B007F63C6 /* SnapshotHelper.swift */; };
+		1A5E16621CA872ED007F63C6 /* WikiQueries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5E16611CA872ED007F63C6 /* WikiQueries.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		1A5E16511CA86A69007F63C6 /* WikiMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiMasterUITests.swift; sourceTree = "<group>"; };
 		1A5E16531CA86A69007F63C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A5E165F1CA8722B007F63C6 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
+		1A5E16611CA872ED007F63C6 /* WikiQueries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiQueries.swift; sourceTree = "<group>"; };
+		1AFE157C1CA98D5B003EF255 /* LinLibertine_Rah.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LinLibertine_Rah.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				1A5E16381CA86A68007F63C6 /* Assets.xcassets */,
 				1A5E163A1CA86A68007F63C6 /* LaunchScreen.storyboard */,
 				1A5E163D1CA86A68007F63C6 /* Info.plist */,
+				1A5E16611CA872ED007F63C6 /* WikiQueries.swift */,
+				1AFE157C1CA98D5B003EF255 /* LinLibertine_Rah.ttf */,
 			);
 			path = WikiMaster;
 			sourceTree = "<group>";
@@ -259,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A5E16621CA872ED007F63C6 /* WikiQueries.swift in Sources */,
 				1A5E16341CA86A68007F63C6 /* ViewController.swift in Sources */,
 				1A5E16321CA86A68007F63C6 /* AppDelegate.swift in Sources */,
 			);
